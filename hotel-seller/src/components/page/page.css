@@ -5,21 +5,21 @@
 }
 .places{
     display:flex;
-    gap:1rem;
+    gap:0.5rem;
 }
 .navButton{
-    background-color:#ccc;
+    background-color:#edecfc;
     padding:0.5rem 1.5rem;
     border-radius:50px;
 }
 
 button{
-    border:1px solid ;
+    border:none; 
     cursor:pointer;
 }
 
 .active{
-    background-color:purple;
+    background-color:#3739e4;
     color:white;
 }
 

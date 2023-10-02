@@ -4,9 +4,13 @@
     box-sizing:border-box; 
 }
 .heading{
-    margin:0 auto ; 
+    margin:1rem  auto ; 
     width:40%; 
 }
+.heading h1{
+    margin:0.5rem;
+}
+
 .body{
     padding:1.5rem;
     display:flex; 

@@ -15,15 +15,96 @@
 
 .card{
     width:450px;
-    border:1px solid #ccc; 
+    border:none;
+    background-color:#fff;
     padding:10px; 
+    border-radius:10px; 
 }
 
 .img img{
+    position:relative;
+    top:0;
+    left:0;
+    border-radius:10px; 
     max-width:100%;
+}
+.like img{
+    width:1rem;
+    height:1rem;
+    filter: invert(22%) sepia(49%) saturate(4839%) hue-rotate(236deg) brightness(98%) contrast(93%);
+}
+.like{
+    display:inline-flex;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    bottom:300px;
+    left:380px;
+    background-color:white;
+    border-radius:50%; 
+    width:1.5rem;
+    height:1.5rem;
+    cursor:pointer;
+}
+.rent{
+    position:relative;
+    bottom:275px; 
+    left:20px; 
+    background-color:white;
+    color:#4244e4;
+    width:100px;
+    border-radius:50px; 
+    text-align:center;
+}
+.address{
+    align-items:center;
+    padding:0.5rem;
 }
 .showMore{
     margin: 2rem auto;
     padding:0.5rem 1.5rem;
     border-radius:50px;
+    background-color:#3739e4;
+    color:white;
 }
+.name{
+    padding-left: 1.5rem;
+    padding-top:0.5rem;
+}
+.details{
+    display:flex;
+    gap:0.5rem;
+    padding:1rem;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+    padding:0 10px;
+}
+.footer button{
+    background:white;
+    color:#464bf1;
+    border: 1px solid #464bf1;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+    padding:0 10px;
+}
+.footer button{
+    background:white;
+    color:#464bf1;
+    padding:0.5rem 1.0rem;
+    border-radius:50px;
+    border: 1px solid #464bf1;
+}
+.footer span{
+    color:#464bf1;
+}
+.address img{
+    width:1rem;
+    height:1rem;
+    margin-right:0.5rem;
+
+}
+
