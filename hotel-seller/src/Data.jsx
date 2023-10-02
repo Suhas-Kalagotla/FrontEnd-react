@@ -14,6 +14,7 @@ import london1 from './images/london1.jpg'
 
 const Data =[
     {
+        id:1,
         image:york1,
         name:'Hotel Indigo',
         location:'New York',
@@ -24,6 +25,7 @@ const Data =[
 
     },
     {
+        id:2,
         image:york2,
         name:'Holiday Inn Express',
         location:'New York',
@@ -33,6 +35,7 @@ const Data =[
         money:'$8,300',
     },
     {
+        id:3,
         image:york3,
         name:'Marriott Marquis',
         location:'New York',
@@ -42,6 +45,7 @@ const Data =[
         details:['3 rooms','2 bed','1bath','1000 sft'],
     }, 
     {
+        id:4,
         image:york4,
         name:'Central Park',
         location:'New York',
@@ -51,6 +55,7 @@ const Data =[
         money:'$9,000',
     },
     {
+        id:5,
         image:york5,
         status:'For Rent',
         location:'New York',
@@ -62,6 +67,7 @@ const Data =[
 
     //
    {
+        id:6,
         image:mumbai1,
         location:'Mumbai',
         name:'Ibis Vikhroli',
@@ -71,6 +77,7 @@ const Data =[
         money:'$9,000',
     },  
     {
+        id:7,
         image:mumbai2,
         location:'Mumbai',
         name:'The Royal Orchid',
@@ -80,6 +87,7 @@ const Data =[
         money:'$7,500', 
     },  
     {   
+        id:8,
         image:mumbai3,
         location:'Mumbai',
         name:'Airport inn residency',
@@ -92,6 +100,7 @@ const Data =[
     
    //
     {
+        id:9,
         image:paris1,
         address:'159 rue de crimee',
         name:"St Christopher's",
@@ -101,6 +110,7 @@ const Data =[
         location:'Paris',
     },
     {
+        id:10,
         image:paris2,
         address:'108 rue Saint-lazare',
         name:"Hilton Paris Opera",
@@ -110,6 +120,7 @@ const Data =[
         location:'Paris',
     },
     {
+        id:11,
         image:paris3,
         address:'61 Quai de Grenelle',
         name:"Novotel Pari",
@@ -120,6 +131,7 @@ const Data =[
     },
     //
     {
+        id:12,
         image:london1,
         address:'1 waterview dr',
         name:"InterContinental London",

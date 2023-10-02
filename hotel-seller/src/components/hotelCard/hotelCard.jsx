@@ -2,6 +2,7 @@ import react,{useState} from 'react'
 import './hotelcard.css'
 import location from '../../images/location.svg'
 import heart from '../../images/heart.svg'    
+import { Link } from 'react-router-dom'
 const HotelCard = ({item}) => {
     const [visible,setVisible] = useState(6);
     const showMore =() =>{
@@ -13,7 +14,8 @@ const HotelCard = ({item}) => {
             <div className ='cardContainer'>
             <div className='allCards'>
                 {item.slice(0,visible).map((val,index) =>(
-                    <div key={index} className ="card">
+                    <Link key={index} to={`/property/${val.id}`}>
+                    <div className ="card">
                         <div className="img">
                             <img src={val.image}/>
                         </div>
@@ -38,10 +40,12 @@ const HotelCard = ({item}) => {
                             <button>Read More</button>
                         </div>
                     </div>
+                </Link>
                 ))}
             </div>
                 <button className="showMore" onClick={showMore}> Show More </button> 
         </div>
+
         </>
     )
 }
