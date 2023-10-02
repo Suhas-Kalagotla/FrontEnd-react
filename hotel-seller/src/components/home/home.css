@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing:border-box; 
+}
+.heading{
+    margin:0 auto ; 
+    width:40%; 
+}
+.body{
+    padding:1.5rem;
+    display:flex; 
+    justify-content:space-between;
+    flex-direction:column; 
+}

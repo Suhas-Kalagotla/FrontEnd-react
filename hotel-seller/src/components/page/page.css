@@ -1,0 +1,29 @@
+.pageContainer{
+    display:flex;
+    justify-content:space-between;
+    margin:1rem 1.5rem;
+}
+.places{
+    display:flex;
+    gap:1rem;
+}
+.navButton{
+    background-color:#ccc;
+    padding:0.5rem 1.5rem;
+    border-radius:50px;
+}
+
+button{
+    border:1px solid ;
+    cursor:pointer;
+}
+
+.active{
+    background-color:purple;
+    color:white;
+}
+
+.viewAll{
+    padding:0.5rem 1.5rem;
+    border-radius:50px;
+}

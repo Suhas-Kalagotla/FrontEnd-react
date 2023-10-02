@@ -1,0 +1,29 @@
+.card{
+    width:30%;
+}
+.cardContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.allCards{
+    display:grid;
+    grid-template-columns : repeat(3,1fr);
+    grid-gap:20px; 
+}
+
+.card{
+    width:450px;
+    border:1px solid #ccc; 
+    padding:10px; 
+}
+
+.img img{
+    max-width:100%;
+}
+.showMore{
+    margin: 2rem auto;
+    padding:0.5rem 1.5rem;
+    border-radius:50px;
+}
